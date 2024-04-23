@@ -49,10 +49,12 @@ img{
     font-size: 2rem;
     margin-top: 4rem;
     gap: 5rem;
+    color: #e5fff1;
 }
 
 #userscore,#compscore{
-    font-size: 4rem;
+    font-size: 2.5rem;
+    color: #e5fff1;
 }
 .msgcontainer{
     margin-top: 5rem;
@@ -69,7 +71,7 @@ img{
 body{
     height: calc(100% - 5rem);
     width: 100%;
-    background-image: url(/images/backgroun.jpeg);
+    background-image: url(/images/R.jpeg);
     background-size: cover ;
 }
 .resetbtn button{
@@ -79,3 +81,72 @@ body{
     margin-right: .5rem;
     background-color: aquamarine;
 }
+
+@media screen and (max-width: 450px){    
+    h1 {
+        background-color: #04964b;
+        color: white;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .choice{
+        height: 5.7rem;
+        width: 5.7rem;
+        background-color: rgb(87, 115, 115);
+        border-radius: 50%;
+        justify-content: space-between;
+    }
+    img{
+        height: 5.6rem;
+        width: 5.6rem;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 3rem;
+    }
+    .choice:hover{
+        cursor: pointer;
+        background-color: rgb(27, 22, 22);
+    }
+    .scoreboard{
+        font-size: 2rem;
+        margin-top: 5rem;
+        gap: 5rem;
+        color: #e5fff1;
+    }
+    
+    #userscore,#compscore{
+        font-size: 3rem;
+    }
+    .msgcontainer{
+        margin-top: 10rem;
+    }
+    #msg{
+        background-color: #04964b;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        color: white;
+    }
+    body{
+        height: calc(100% - 3rem);
+        width: 100%;
+        background-image: url(/images/OIP.jpeg);
+        background-size: cover ;
+    }
+    .resetbtn button{
+        height: 2.3rem;
+        width: 7.5rem;
+        margin-top:4.2rem;
+        margin-right: .5rem;
+        background-color: rgb(4, 63, 88);
+        color: white;
+    }
+}
+
