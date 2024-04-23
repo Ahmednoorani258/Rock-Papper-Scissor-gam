@@ -61,4 +61,5 @@ resetbtn.addEventListener('click',() => {
     compScr = 0
     compprint.innerText = `${userScr}`
     userprint.innerText = `${userScr}`
+    msg.innerText = 'Play Your Next Move'
 })
